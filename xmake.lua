@@ -1,0 +1,6 @@
+target("clox")
+    set_kind("binary")
+    set_languages("c99", "c++20")
+    add_files("src/**/*.cpp")
+    add_files("src/*.cpp")
+    add_files("src/**/*.mpp")
